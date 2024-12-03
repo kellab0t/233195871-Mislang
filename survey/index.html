@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Pon's Tres Marias Cafe Survey Form</h1>
+        <p id="description">Answering this is will help our cafe to do better. Thank You!</p>
+        <form id="survey-form">
+           <div>
+            <input placeholder="name" id="name" type="text" required>
+            <input placeholder="email" id="email" type="email" required>
+            <input placeholder="number" id="number" type="number" min="11" max="11">
+            </div>
+            
+            <div>
+            <label id="name-label">Name</label>
+            <label id="email-label">Email</label>
+            <label id="number-label">Number</label>
+            </div>
+            
+            <div>
+            <select id="dropdown" >
+                <option disabled selected value>How often do you visit?</option>
+                <option value="5x">5x /month</option>
+                <option value="3x">3x /month</option>
+                <option value=">2">Sometimes(less than 2x /month)</option>
+            </select>
+            </div>
+            
+            <div>
+                <p>How do the staff members treat you?</p>
+                <input type="radio" value="Great" name="user-recommend">Great
+                <input type="radio" value="Fair" name="user-recommend">Fair
+                <input type="radio" value="Bad" name="user-recommend">Bad
+            </div>
+            
+            <div>
+            <p>What would you like us to improve?</p>
+            <input type="checkbox" value="Comfortability">Comfortability
+            <input type="checkbox" value="Costumer Service">Costumer Service
+            <input type="checkbox" value="Food Delivery Time">Food Delivery Time
+            </div>
+
+            <div>
+                <p>Write about your previous experience in our cafe.</p>
+                <textarea ></textarea>
+                <button id="submit" type="submit">Submit</button>
+
+            </div>
+        </form>
+        
+    
+</body>
+</html>
